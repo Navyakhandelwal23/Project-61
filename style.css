@@ -1,0 +1,111 @@
+body {
+text-align:center;
+}
+
+p {
+font-size:35px;
+}
+
+h2 {
+font-size:45px;
+}
+
+h1 {
+font-size:40px;
+  font-family: 'New Tegomin', serif;
+}
+.menu{
+position: fixed;
+background: white;
+width: 100%;
+margin-top: 0px;
+top: 0px;
+z-index: 10;
+}
+
+.Link{
+display: inline;
+padding-left: 33px;
+padding-right: 25px;
+font-family: fantasy;
+font-size: 20px;
+}
+
+.Links:hover{
+font-size: 25px;
+text-decoration: underline;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+text-decoration: none;
+color: crimson;
+text-shadow: 2px 2px gainsboro; 
+}
+
+#About a{
+text-shadow: none !importent;
+text-decoration: underline !importent;
+color: aqua !importent;
+}
+
+#contact{
+background: firebrick;
+}
+
+#contact iframe{
+width: 100%;
+}
+
+.contact_1 h3{
+display: inline;
+}
+
+.contact_1 a{
+color: white;
+text-shadow: none;
+}
+.parallax-inner{
+    display: table-cell;
+   position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#welcome {
+    background: rgb(255,0,78);
+    background: linear-gradient(55deg, rgba(255,0,78,1) 0%, rgba(166,36,230,1) 73%, rgba(244,0,255,1) 85%, rgba(238,6,96,1) 100%);
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h6 {
+    font-size: 50px;
+}
+
+img {
+    transition: scale .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover{
+   transform: scale(0.9);
+}
+
+#Shilpa {
+    height: 500px;
+    width: 700px;
+}
+
+#Dhvani{
+    height:500px
+}
